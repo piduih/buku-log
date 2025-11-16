@@ -1,0 +1,16 @@
+{
+  "name": "Buku Log Pak Long",
+  "short_name": "BukuLog",
+  "description": "Buku Log ringkas untuk mencatat perbelanjaan dan rekod harian.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "display": "standalone"
+}

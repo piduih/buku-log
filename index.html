@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA meta -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#3b82f6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-icon" href="/vite.svg">
+    <title>Buku Log Pak Long</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'base': '#f8fafc', // slate-50
+              'surface': '#ffffff', // white
+              'muted': '#64748b', // slate-500
+              'primary': '#3b82f6', // blue-500
+              'primary-focus': '#2563eb', // blue-600
+              'text-primary': '#1e293b', // slate-800
+              'text-secondary': '#475569', // slate-600
+              'input-bg': '#ffffff', // white
+              'input-border': '#cbd5e1', // slate-300
+              'input-focus-border': '#3b82f6', // blue-500
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base text-text-primary antialiased" style="touch-action: manipulation;">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js')
+          .then(() => {
+            console.log('Service Worker registered');
+          }).catch(err => {
+            console.warn('Service Worker registration failed', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

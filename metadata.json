@@ -1,0 +1,6 @@
+{
+  "name": "Buku Log Pak Long",
+  "description": "A digital life logbook application to easily track expenses and maintenance activities for various assets and personal events. It provides powerful reporting and filtering, acting like a personal accountant.",
+  "features": ["logbooks","entries","export-csv"],
+  "requestFramePermissions": []
+}
