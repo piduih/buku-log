@@ -1,3 +1,10 @@
+<img width="322" height="556" alt="image" src="https://github.com/user-attachments/assets/bae36851-5c4d-46a5-acb6-f6b1b33c07ee" />
+<img width="320" height="555" alt="image" src="https://github.com/user-attachments/assets/1f3bfda7-96d4-406c-a815-487c63994002" />
+<img width="316" height="549" alt="image" src="https://github.com/user-attachments/assets/38ec0e5e-bb68-4a41-a179-55d266361778" />
+<img width="317" height="554" alt="image" src="https://github.com/user-attachments/assets/c0aea6a4-0127-4eaa-924c-a7bbd9eaa20f" />
+<img width="317" height="552" alt="image" src="https://github.com/user-attachments/assets/94c40ad8-c8bd-49c6-897b-383df17ee919" />
+
+
 # Buku Log Pak Long
 
 Ringkasan aplikasi — Buku Log Pak Long ialah aplikasi web ringkas untuk merekod dan menjejak perbelanjaan & pendapatan. Aplikasi direka bersifat "mobile-first" supaya pengalaman di telefon lebih baik: modals penuh skrin, butang besar dan navigasi mudah. Ia menyokong penyimpanan tempatan (JSON-first), fail lampiran (File System Access API), dan juga Progressive Web App (PWA).
